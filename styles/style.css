@@ -145,30 +145,23 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 80%; */
     margin: 0 10%;
+    margin-bottom: 70px;
     margin-top: 35px;
 }
 
-.the-orange-tricky-bar{
-    width: 5px;
-    height: 105px;
-    background-color: #FF900E;
-    border: none;
-    left: 0;
-}
 
 .description-text-main-header{
     font-size: 2.5vw;
     font-weight: 700;
     line-height: 53px;
     width: 25vw;
-    margin-left: 20px;
+    padding-left: 20px;
+    border-left-style: solid;
+    border-left-color: #FF900E;
+    border-left-width: 5px;
 }
 
-.description-text-header{
-    display: flex;
-}
 
 .description-text-sub-header, .detail-card-info{
     color: var(--ash-prime);
@@ -326,6 +319,7 @@ a{
     font-size: 34px;
     font-weight: 500;
     margin-left: 10%;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 1px rgb(170, 170, 170);
 }
 
@@ -438,3 +432,30 @@ a{
 }
 
 
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    .feature-photos{
+        padding: 2%;
+    }
+    .features{
+        margin-bottom: 10vh;
+    }
+    .description-text-main-header {
+        font-size: 3vw;
+        line-height: 5.5vh;
+        width: 26vw;
+    }
+    .description-text-sub-header{
+        width: 35vw;
+    }
+    .feature-description-side-img>img {
+        width: 105%;
+        height: 85vh;
+    }
+    .description-detail-cards {
+        padding: 20px;
+    }
+    .card{
+        width: 10vw;
+        height: 8vw;
+    }
+}
