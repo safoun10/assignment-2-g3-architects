@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ------------------------------------------------- 
+   These are "work-sans" font , imported from google 
+---------------------------------------------------- */
+
+:root{
+    --black-prime:#131313;--ash-prime:#727272;
+    
+
+    /* These are the most common colors that have been used across the whole website */
+}
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background-color:  rgba(255, 144, 14, 0.1);
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black-prime);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;color: var(--black-prime);
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 12.5%;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+
+.banner-top-header{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    color: var(--black-prime);
+}
+
+.banner-top-info{
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 865px;
+    margin: 20px auto;
+    color: var(--ash-prime);
+    margin-bottom: 30px;
+}
+
+.primary-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-top-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-img{
+    margin: 0 12.5%;
+    width: 75%;
+    margin-bottom: 45px;
+}
+
+/* Header design ends here */
+
+.feature-photos{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-photos>img:hover{
+    scale: 1.05;
+}
+
+.feature-photos>img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px var(--ash-prime);
+    transition: 1s;
+}
+
+.feature-text-head{
+    color: var(--black-prime);
+    width: 450px;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.head-ash-colored{
+    color: var(--ash-prime);
+    font-weight: 400;
+}
+
+.head-orange-colored{
+    color: #FF900E;
+}
+
+.features-text-info{
+    font-weight: 400;
+    color: var(--ash-prime);
+    line-height: 26px;
+    width: 500px;
+    margin-bottom: 32px;
+}
+
+.feature-text{
+    margin-left: 5px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    margin: 0 10%;
+    margin-top: 35px;
+}
+
+.the-orange-tricky-bar{
+    width: 5px;
+    height: 105px;
+    background-color: #FF900E;
+    border: none;
+    left: 0;
+}
+
+.description-text-main-header{
+    font-size: 2.5vw;
+    font-weight: 700;
+    line-height: 53px;
+    width: 25vw;
+    margin-left: 20px;
+}
+
+.description-text-header{
+    display: flex;
+}
+
+.description-text-sub-header, .detail-card-info{
+    color: var(--ash-prime);
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 2.5vh;
+}
+
+.description-text-sub-header{
+    width: 585px;
+    margin-top: 24px;
+}
+
+.detail-card-info{
+    width: 30vw;
+    margin-top: 10px;
+}
+
+.detail-card-head{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: var(--black-prime);
+}
+
+.description-detail-cards{
+    width: 550px;
+    padding: 30px;
+}
+
+.feature-description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0 12.5%;
+    margin-bottom: 130px;
+}
+
+.feature-description-side-img>img{
+    width: 100%;
+    position: inherit;
+    margin-bottom: -150px;
+    transition: 2s;
+}
+
+.feature-description-side-img>img:hover{
+    scale: 1.05 ;
+}
+
+.feature-description-text{
+    width: 40vw;
+    display: grid;
+}
+
+.years-of-experience{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 35px 30px;
+    position: relative;
+    left: -50px;
+    transition: 2s;
+}
+
+.years-of-experience:hover{
+    scale: 0.9;
+}
+
+.small{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Feature description design ends here */
+
+.card-logo>img{
+    width: 45px;
+    align-items: center;
+}
+
+.fact-number{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--black-prime);
+}
+
+.fact-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--ash-prime);
+    text-align: center;
+}
+
+.facts-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12.5%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 3px var(--ash-prime);
+}
+
+
+.card:hover{
+    transform: rotate(15deg);
+    scale: 1.2;
+    box-shadow: 10px 10px 10px var(--ash-prime);
+}
+
+
+.facts-head{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--black-prime);
+    margin-bottom: 24px;
+}
+
+.facts-sub-head{
+    font-weight: 400;
+    width: 540px;
+    line-height: 26px;
+    color: var(--ash-prime);
+}
+
+.facts-text{
+    margin-left: 12.5%;
+    margin-bottom: 100px;
+}
+
+.facts{
+    margin-bottom: 130px;
+}
+
+.extra-head{
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--black-prime);
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.arch-card-head{
+    font-size: 34px;
+    font-weight: 500;
+    margin-left: 10%;
+    text-shadow: 2px 2px 1px rgb(170, 170, 170);
+}
+
+.arch-card-detail{
+    font-weight: 400;
+    color: var(--black-prime);
+    margin: 0 10%;
+}
+
+.side-design{
+    width: 50px;
+    height: 100%;
+    background-color: #010420;
+    border: none;
+    position: relative;
+    left: 0;
+}
+
+.main-arch-card-1{
+    background-image: url(../images/extra/urban-planning-blurred.jpg);
+}
+
+.main-arch-card-2{
+    background-image: url(../images/extra/interior-design-blurred.jpg);
+}
+
+.main-arch-card-3{
+    background-image: url(../images/extra/landscape-design-blurred.jpg);
+}
+
+.main-arch-card-4{
+    background-image: url(../images/extra/science-blurred.jpg);
+}
+
+.card-bg{
+    max-width: 100%;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plannings{
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #03041c;
+}
+
+.architect-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    /* height: 80vh; */
+    height: 40em;
+    padding:0 12.5%;
+}
+
+.extra{
+    height: 120vh;
+    padding-top: 50px;
+    background-color: #7878786a;
+}
+
+.sponsor-head{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 150px;
+}
+
+.sponsor-info{
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 540px;
+}
+
+.sponsor-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-logos>img{
+    width: 160px;
+    filter: grayscale(100%);
+}
+
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 12.5%;
+    margin-top: 50px;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--ash-prime);
+    background-color: #f8e5cb;
+    padding: 40px 18%;
+    margin: 0 12.5%;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+
